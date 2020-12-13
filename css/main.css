@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital@1&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: dimgrey;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: darkslategrey;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.navbar-brand i {
+    color: palevioletred;
+}
+
+.nav-link {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.nav-item .active {
+    background: palevioletred;
+}
+
+
+#headerwrap {
+    background: url("../img/mainPhoto.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#headerwrap h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#section2 {
+    padding-top: 35px;
+}
+
+.w {
+    padding-top: 35px;
+}
+
+#section3 {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#section3 h4 {
+    font-weight: 700;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);;
+    -o-transform: rotate(-10deg);;
+    -ms-transform: rotate(-10deg);;
+    transform: rotate(-10deg);;
+}
+
+.col-lg-4 i {
+    color: palevioletred;
+    font-size: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+#section4 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#section4 h4 {
+    font-weight: 700;
+}
+
+#section5 {
+    background: #eaeaea;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#section5 h4 {
+    font-weight: 700;
+}
+
+#section6 {
+    background: palevioletred;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+
+#section6 h4 {
+    font-weight: 700;
+    color: white;
+}
+
+#section6 p {
+    color: white;
+}
+#footer{
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+ #footer i{
+     color: gray;
+     font-size: 30px;
+     padding: 20px;
+ }
+ #footer i:hover{
+     color: red;
+ }
+ #copyrights{
+     background: black;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     text-align: center;
+color: white;
+ }
